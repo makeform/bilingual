@@ -1,1 +1,5 @@
-# bilingual
+# @makeform/bilingual
+
+## License
+
+MIT
