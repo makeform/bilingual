@@ -4,13 +4,9 @@ module.exports =
     dependencies: []
     i18n:
       "en":
-        "單位": "unit"
-        "unit": "unit"
         "en": "English"
         "zh": "Chinese"
       "zh-TW":
-        "單位": "單位"
-        "unit": "單位"
         "en": "英文"
         "zh": "中文"
   init: (opt) -> opt.pubsub.fire \subinit, mod: mod(opt)

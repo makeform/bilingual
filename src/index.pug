@@ -1,10 +1,10 @@
 div
-  .has-tips.manual(ld="base error-root",plug="widget",style="cursor:default")
-    .m-edit
+  style(type="text/css"): include:stylus index.styl
+  script(type="@plotdb/block"): include:lsc index.ls
+  div(plug="body")
+    .m-edit.has-tips.manual(ld="error-root")
       .input-group.multilang
         input.form-control.active(ld="ml-input",data-name="zh",t,t-placeholder="zh")
         input.form-control(ld="ml-input",data-name="en",t,t-placeholder="en")
       .hover-tip.tip-sm: div(ld-each="error")
     .m-view(ld="content")
-  style(type="text/css"): include:stylus index.styl
-  script(type="@plotdb/block"): include:lsc index.ls
