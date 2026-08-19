@@ -1,5 +1,10 @@
 # Change Logs
 
+## v2.0.1
+
+ - upgrade dependencies
+
+
 ## v2.0.0
 
  - tweak DOM based on updated `@makeform/common` DOM structure.
